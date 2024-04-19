@@ -1,5 +1,28 @@
-.App {
-  text-align: center;
+/* 베이스 백그라운드 */
+.Base {
+  background-color: #000000;
+  display: flex;
+  min-height: 100vh; /* 전체 화면*/
+}
+
+/* VCR 폰트 추가 */
+@font-face {
+  font-family: 'VCR_OSD_MONO';
+  src: url('fonts/VCR_OSD_MONO.ttf') format(truetype);
+}
+
+/* Pretendard 폰트 추가 */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('fonts/Pretendard.ttf') format(truetype);
+}
+
+/*VCR 폰트*/
+.VCR_text {
+  font-family: 'VCR_OSD_MONO', sans-serif;
+}
+.Pretendard_text{
+  font-family: 'Pretendard', sans-serif;
 }
 
 .App-logo {
