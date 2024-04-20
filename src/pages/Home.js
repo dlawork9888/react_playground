@@ -16,7 +16,8 @@ function Home() {
           className="Pretendard_text"
           style = {{
             color:'#FFFFFF',
-            fontSize:50
+            fontSize:50,
+            margin:30
           }}
         >
           React Playground !
@@ -26,16 +27,32 @@ function Home() {
                 marginTop:30
             }}
         >
+
+
+{/*Links*/}
             <div
                 className='Pretendard_text'
                 style = {{
                     color:'#FFFFFF',
+                    margin:30,
+                    flexDirection:'column',
                     fontSize:30
                 }}
             >
-                <Link to="/scroll" style={{ color: '#FFFFFF' }}>1. Scroll !</Link>
+
+                <Link to="/ScrollAnimation" style={{ color: '#FFFFFF' }}>
+                  <div>
+                    1. Scroll
+                  </div>
+                </Link>
+
+                <Link to="Animation1" style={{ color: '#FFFFFF'}}>
+                  <div>
+                    2. Animation1
+                  </div>
+                </Link>
+              
             </div>
-          
         </div>
       </div>
     );
